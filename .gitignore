@@ -1,1 +1,4 @@
+results/
 distilbert_sentiment_model/
+*.pt
+*.safetensors
