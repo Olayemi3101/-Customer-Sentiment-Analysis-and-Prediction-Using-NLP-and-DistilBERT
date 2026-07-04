@@ -4,16 +4,13 @@ import torch
 import pandas as pd
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-# -----------------------------------------
-# Fix for system issues
-# -----------------------------------------
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # -----------------------------------------
 # Page Config
 # -----------------------------------------
 st.set_page_config(
-    page_title="Shop Ease Sentiment AI",
+    page_title="ShopEase Sentiment AI",
     page_icon="🛍️",
     layout="centered"
 )
@@ -23,7 +20,7 @@ st.set_page_config(
 # -----------------------------------------
 st.markdown(
     """
-    # 🛍️ Shop Ease
+    # 🛍️ ShopEase
     ### Customer Sentiment Analysis App
 
     This app uses a fine-tuned **DistilBERT model** to classify customer reviews into:
@@ -32,7 +29,7 @@ st.markdown(
     - 😐 Neutral
     - 😊 Positive
 
-    It helps understand customer feedback quickly and easily.
+    It helps to understand customer feedback quickly and easily.
     """
 )
 
