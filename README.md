@@ -133,7 +133,6 @@ The following models were trained and evaluated:
 ---
 
 ## Model Performance
-
 | Model | Accuracy | ROC-AUC |
 |--------|----------|----------|
 | Naïve Bayes | 83.29% | 94.36% |
@@ -146,6 +145,14 @@ The following models were trained and evaluated:
 ✅ **DistilBERT**
 
 DistilBERT achieved the highest overall accuracy and delivered the best sentiment classification performance.
+
+## Model
+
+The fine-tuned DistilBERT model is hosted on Hugging Face Hub.
+
+Model Repository:
+
+https://huggingface.co/YourUsername/Customer-Sentiment-DistilBERT
 
 ---
 
